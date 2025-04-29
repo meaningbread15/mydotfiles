@@ -1,0 +1,3 @@
+[open]
+default = ["nvim", "$1"]
+
