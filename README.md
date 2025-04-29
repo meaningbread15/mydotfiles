@@ -1,6 +1,7 @@
 # Dotfiles
 
 My personal dotfiles for Arch Linux with i3wm setup.
+It's not perfect, but it gets everything done and the keybindings are something that I am accustomed to or I have set them up and now have a muscle memory for. The theme here is Catppuccin (Mocha to be specific.. yeah I know how normie!) and that is consistent throughout.
 
 ## What's included
 - i3 window manager configuration
