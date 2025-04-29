@@ -1,0 +1,65 @@
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+Desktop.ini
+
+# Vim/Neovim
+*.swp
+*.swo
+*~
+.netrwhist
+
+# Cache files
+__pycache__/
+*.py[cod]
+*$py.class
+.npm
+node_modules/
+
+# Local history
+.history/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Sensitive information
+.ssh/
+.gnupg/
+passwords
+secrets
+tokens
+credentials
+auth*.json
+*_history
+.lesshst
+.bash_history
+.zsh_history
+.python_history
+
+# Large binary files
+*.mp4
+*.iso
+*.zip
+*.tar.gz
+*.rar
+
+# Spotify cache
+spotify/.config/spotify/Users/
+spotify/.config/spotify/Keyring/
+spotify/.config/spotify/Browser/
+spotify/.config/spotify/Storage/
+
+# mpv watch history
+mpv/.config/mpv/watch_later/
+
+# Nvim (optional, may want to ignore plugins)
+nvim/.config/nvim/plugged/
+nvim/.config/nvim/autoload/
+
+# Keep the README
+!README.md
