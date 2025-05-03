@@ -58,8 +58,17 @@ alias dc..='cd ..'
 # alias cat='ccat'
 alias batfetch='~/.local/bin/batgreet.sh'
 alias virt-manager='/usr/bin/python /usr/bin/virt-manager'
-alias la='ls --color=auto'
+alias la='ls -la --color=auto'
+nvim() {
+  local target="$1"
+  mkdir -p "$(dirname "$target")"
+  command nvim "$@"
+}
 
+touch() {
+  local target="$1"
+  mkdir -p "$(dirname "$target")" && command touch "$target"
+}
 
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 # Suggestions
